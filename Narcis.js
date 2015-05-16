@@ -214,6 +214,21 @@ function vybudujPismeno(pismeno){
 		indexy[7] = [5, 11];
 	}
 
+	if(pismeno == "P"){
+
+		indexy[0] = [];
+		indexy[1] = [5, 6, 7, 8, 9];
+		indexy[2] = [5, 10];
+		indexy[3] = [5, 11];
+		indexy[4] = [5, 11];
+		indexy[5] = [5, 10];
+		indexy[6] = [5, 6, 7, 8, 9];
+		indexy[7] = [5];
+		indexy[8] = [5];
+		indexy[9] = [5];
+	
+	}
+	
 	if(pismeno == "R"){
 
 		indexy[0] = [];
