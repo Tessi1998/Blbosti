@@ -313,7 +313,7 @@ function vybudujPismeno(pismeno){
 		var pozadie = Array();
 
 		for (var e = 0; e < 17; e++) {
-			pozadie.push(":yellow_heart:");
+			pozadie.push(":black_circle:");
 		};
 
 		for (var ii = 0; ii < indexy[i].length; ii++) {
