@@ -6,10 +6,10 @@ function tessijesuper(love){
 	if(msgData.message.indexOf("!maluj") > -1){
 		console.log(msgData.un);
 		if(msgData.un == "Tessi Tess" || msgData.un == "Narcis"){
-			var narcisekjekrasavec = msgData.message.replace("!maluj ", "");
+			var narcisekjekrasavec = msgData.message.replace("!paint", "");
 			nakresli(narcisekjekrasavec);
 		} else {
-			API.sendChat("@"+msgData.un+" :( ");
+			API.sendChat("@"+msgData.un+" To je soukromé. Ty malovat nemůžeš. :P ");
 		}
 	}
 
