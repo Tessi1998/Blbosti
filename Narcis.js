@@ -112,13 +112,13 @@ function vybudujPismeno(pismeno){
 		indexy[0] = [];
 		indexy[1] = [7, 8, 9];
 		indexy[2] = [6, 10];
-		indexy[3] = [6, 10];
-		indexy[4] = [6, 10];
-		indexy[5] = [6, 7, 8, 9, 10];
-		indexy[6] = [6, 10];
-		indexy[7] = [6, 10];
-		indexy[8] = [6, 10];
-		indexy[9] = [6, 10];
+		indexy[3] = [5, 11];
+		indexy[4] = [5, 11];
+		indexy[5] = [5, 6, 7, 8, 9, 10, 11];
+		indexy[6] = [5, 11];
+		indexy[7] = [5, 11];
+		indexy[8] = [5, 11];
+		indexy[9] = [5, 11];
 		indexy[10] = [];
 
 	}
