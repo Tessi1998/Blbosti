@@ -9,7 +9,7 @@ function tessijesuper(love){
 			var narcisekjekrasavec = msgData.message.replace("!maluj ", "");
 			nakresli(narcisekjekrasavec);
 		} else {
-			API.sendChat("@"+msgData.un+" :( ");
+			API.sendChat("@"+msgData.un+" Toto je soukromé. Ty malovat nemůžeš. :P ");
 		}
 	}
 
@@ -43,15 +43,15 @@ function vybudujPismeno(pismeno){
 	if(pismeno == "A") {
 
 		indexy[0] = [];
-		indexy[1] = [7, 8, 9];
-		indexy[2] = [6, 10];
-		indexy[3] = [5, 11];
-		indexy[4] = [5, 11];
-		indexy[5] = [5, 6, 7, 8, 9, 10, 11];
-		indexy[6] = [5, 11];
-		indexy[7] = [5, 11];
-		indexy[8] = [5, 11];
-		indexy[9] = [5, 11];
+		indexy[1] = [7,8,9];
+		indexy[2] = [6,10];
+		indexy[3] = [5,11];
+		indexy[4] = [5,11];
+		indexy[5] = [5,6,7,8,9,10,11];
+		indexy[6] = [5,11];
+		indexy[7] = [5,11];
+		indexy[8] = [5,11];
+		indexy[9] = [5,11];
 
 	}
 
@@ -102,26 +102,26 @@ function vybudujPismeno(pismeno){
 	if(pismeno == "E") {
 
 		indexy[0] = [];
-		indexy[1] = [5, 6, 7, 8, 9, 10, 11];
+		indexy[1] = [5,6,7,8,9,10,11];
 		indexy[2] = [5];
 		indexy[3] = [5];
 		indexy[4] = [5];
-		indexy[5] = [5, 6, 7, 8];
+		indexy[5] = [5,6,7,8];
 		indexy[6] = [5];
 		indexy[7] = [5];
 		indexy[8] = [5];
-		indexy[9] = [5, 6, 7, 8, 9, 10, 11];
+		indexy[9] = [5,6,7,8,9,10,11];
 
 	}
 	
         	if(pismeno == "F") {
 
 		indexy[0] = [];
-		indexy[1] = [5, 6, 7, 8, 9, 10, 11];
+		indexy[1] = [5,6,7,8,9,10,11];
 		indexy[2] = [5];
 		indexy[3] = [5];
 		indexy[4] = [5];
-		indexy[5] = [5, 6, 7, 8];
+		indexy[5] = [5,6,7,8];
 		indexy[6] = [5];
 		indexy[7] = [5];
 		indexy[8] = [5];
@@ -147,19 +147,19 @@ function vybudujPismeno(pismeno){
         	if(pismeno == "H") {
 
 		indexy[0] = [];
-		indexy[1] = [5, 11];
-		indexy[2] = [5, 11];
-		indexy[3] = [5, 11];
-		indexy[4] = [5, 11];
-		indexy[5] = [5, 6, 7, 8, 9, 10, 11];
-		indexy[6] = [5, 11];
-		indexy[7] = [5, 11];
-		indexy[8] = [5, 11];
-		indexy[9] = [5, 11];
+		indexy[1] = [5,11];
+		indexy[2] = [5,11];
+		indexy[3] = [5,11];
+		indexy[4] = [5,11];
+		indexy[5] = [5,6,7,8,9,10,11];
+		indexy[6] = [5,11];
+		indexy[7] = [5,11];
+		indexy[8] = [5,11];
+		indexy[9] = [5,11];
 
 	}
 	
-	if(pismeno == "I") {
+	        if(pismeno == "I") {
 
 		indexy[0] = [];
 		indexy[1] = [6,7,8,9,10];
@@ -173,22 +173,8 @@ function vybudujPismeno(pismeno){
 		indexy[9] = [6,7,8,9,10];
 
 	}
-
-	if(pismeno == "R"){
-
-		indexy[0] = [];
-		indexy[1] = [5, 6, 7, 8, 9];
-		indexy[2] = [5, 10];
-		indexy[3] = [5, 11];
-		indexy[4] = [5, 11];
-		indexy[5] = [5, 10];
-		indexy[6] = [5, 6, 7, 8, 9];
-		indexy[7] = [5, 9];
-		indexy[8] = [5, 10];
-		indexy[9] = [5, 11];
-	}
-	
-	if(pismeno == "L") {
+        
+        if(pismeno == "L") {
 
 		indexy[0] = [];
 		indexy[1] = [5];
@@ -199,52 +185,10 @@ function vybudujPismeno(pismeno){
 		indexy[6] = [5];
 		indexy[7] = [5];
 		indexy[8] = [5];
-		indexy[9] = [5, 6, 7, 8, 9, 10, 11];
+		indexy[9] = [5,6,7,8,9,10,11];
 
 	}
 	
-	if(pismeno == "S") {
-
-		indexy[0] = [];
-		indexy[1] = [5, 6, 7, 8, 9, 10, 11];
-		indexy[2] = [5];
-		indexy[3] = [5];
-		indexy[4] = [5];
-		indexy[5] = [5, 6, 7, 8, 9, 10, 11];
-		indexy[6] = [11];
-		indexy[7] = [11];
-		indexy[8] = [11];
-		indexy[9] = [5, 6, 7, 8, 9, 10, 11];
-
-	}
-	
-	if(pismeno == "T") {
-
-		indexy[0] = [];
-		indexy[1] = [5, 6, 7, 8, 9, 10, 11];
-		indexy[2] = [8];
-		indexy[3] = [8];
-		indexy[4] = [8];
-		indexy[5] = [8];
-		indexy[6] = [8];
-		indexy[7] = [8];
-		indexy[8] = [8];
-		indexy[9] = [8];
-
-	}
-
-	if(pismeno == "N"){
-
-		indexy[0] = [];
-		indexy[1] = [5,11];
-		indexy[2] = [5,6,11];
-		indexy[3] = [5,7,11];
-		indexy[4] = [5,8,11];				
-		indexy[5] = [5,9,11];		
-		indexy[6] = [5,10,11];
-		indexy[7] = [5,11];
-	}
-
 	if(pismeno == "M"){
 
 		indexy[0] = [];
@@ -256,6 +200,104 @@ function vybudujPismeno(pismeno){
 		indexy[6] = [5,11];
 		indexy[7] = [5,11];
 		indexy[8] = [5,11];
+	}
+	
+	if(pismeno == "N"){
+
+		indexy[0] = [];
+		indexy[1] = [5,11];
+		indexy[2] = [5,6,11];
+		indexy[3] = [5,7,11];
+		indexy[4] = [5,8,11];				
+		indexy[5] = [5,9,11];		
+		indexy[6] = [5,10,11];
+		indexy[7] = [5,11];
+	}
+	
+	if(pismeno == "O"){
+
+		indexy[0] = [];
+		indexy[1] = [7,8,9];
+		indexy[2] = [6,10];
+		indexy[3] = [5,11];
+		indexy[4] = [5,11];
+		indexy[5] = [5,11];
+		indexy[6] = [5,11];
+		indexy[7] = [5,11];
+		indexy[8] = [6,10];
+		indexy[9] = [7,8,9];
+	}
+	
+	if(pismeno == "P"){
+
+		indexy[0] = [];
+		indexy[1] = [5,6,7,8,9];
+		indexy[2] = [5,10];
+		indexy[3] = [5,11];
+		indexy[4] = [5,11];
+		indexy[5] = [5,10];
+		indexy[6] = [5,6,7,8,9];
+		indexy[7] = [5];
+		indexy[8] = [5];
+		indexy[9] = [5];
+	}
+	
+	if(pismeno == "Q"){
+
+		indexy[0] = [];
+		indexy[1] = [7,8,9];
+		indexy[2] = [6,10];
+		indexy[3] = [5,11];
+		indexy[4] = [5,11];
+		indexy[5] = [5,11];
+		indexy[6] = [5,11];
+		indexy[7] = [5,9,11];
+		indexy[8] = [6,10];
+		indexy[9] = [7,8,9,11];
+	}
+	
+	if(pismeno == "R"){
+
+		indexy[0] = [];
+		indexy[1] = [5,6,7,8,9];
+		indexy[2] = [5,10];
+		indexy[3] = [5,11];
+		indexy[4] = [5,11];
+		indexy[5] = [5,10];
+		indexy[6] = [5,6,7,8,9];
+		indexy[7] = [5,9];
+		indexy[8] = [5,10];
+		indexy[9] = [5,11];
+	}
+	
+	if(pismeno == "S") {
+
+		indexy[0] = [];
+		indexy[1] = [5,6,7,8,9,10,11];
+		indexy[2] = [5];
+		indexy[3] = [5];
+		indexy[4] = [5];
+		indexy[5] = [5,6,7,8,9,10,11];
+		indexy[6] = [11];
+		indexy[7] = [11];
+		indexy[8] = [11];
+		indexy[9] = [5,6,7,8,9,10,11];
+
+	}
+	
+	if(pismeno == "T") {
+
+		indexy[0] = [];
+		indexy[1] = [5,6,7,8,9,10,11];
+		indexy[2] = [8];
+		indexy[3] = [8];
+		indexy[4] = [8];
+		indexy[5] = [8];
+		indexy[6] = [8];
+		indexy[7] = [8];
+		indexy[8] = [8];
+		indexy[9] = [8];
+
 	}
 
 	if(pismeno == "HEART") {
@@ -276,17 +318,17 @@ function vybudujPismeno(pismeno){
 	if(pismeno == "I_LOVE_TESS") {
 
 		indexy[0] = [];
-		indexy[1] = [1,2,3, 7,9];
-		indexy[2] = [2, 8,6,10];
-		indexy[3] = [2, 6,10];
-		indexy[4] = [1,2,3, 7,9];				
+		indexy[1] = [1,2,3,7,9];
+		indexy[2] = [2,8,6,10];
+		indexy[3] = [2,6,10];
+		indexy[4] = [1,2,3,7,9];				
 		indexy[5] = [8];
 		indexy[6] = [];
-		indexy[7] = [1,2,3, 5,6,7, 9,10,11, 13,14,15];
-		indexy[8] = [2, 5, 9, 13];
-		indexy[9] = [2, 5,6, 9,10,11, 13,14,15];
-		indexy[10] = [2, 5, 11, 15];
-		indexy[11] = [2, 5,6,7, 9,10,11, 13,14,15];
+		indexy[7] = [1,2,3,5,6,7,9,10,11,13,14,15];
+		indexy[8] = [2,5,9,13];
+		indexy[9] = [2,5,6,9,10,11,13,14,15];
+		indexy[10] = [2,5,11,15];
+		indexy[11] = [2,5,6,7,9,10,11,13,14,15];
 		indexy[12] = [];
 
 	}
