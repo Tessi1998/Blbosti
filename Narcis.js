@@ -38,23 +38,23 @@ function posliPrikazNaKreslenie(index, timeout){
 }
 function vybudujPismeno(pismeno){
 	console.log("PISEMENO: "+pismeno);
-	if(pismeno == "T") {
+	if(pismeno == "A") {
 		var indexy = [];
 
 		indexy[0] = [];
-		indexy[1] = [5, 6, 7, 8, 9, 10, 11];
-		indexy[2] = [8];
-		indexy[3] = [8];
-		indexy[4] = [8];
-		indexy[5] = [8];
-		indexy[6] = [8];
-		indexy[7] = [8];
-		indexy[8] = [8];
-		indexy[9] = [8];
+		indexy[1] = [7, 8, 9];
+		indexy[2] = [6, 10];
+		indexy[3] = [5, 11];
+		indexy[4] = [5, 11];
+		indexy[5] = [5, 6, 7, 8, 9, 10, 11];
+		indexy[6] = [5, 11];
+		indexy[7] = [5, 11];
+		indexy[8] = [5, 11];
+		indexy[9] = [5, 11];
 		indexy[10] = [];
 
 	}
-
+	
 	if(pismeno == "E") {
 		var indexy = [];
 
@@ -71,8 +71,8 @@ function vybudujPismeno(pismeno){
 		indexy[10] = [];
 
 	}
-
-	if(pismeno == "S") {
+	
+        if(pismeno == "F") {
 		var indexy = [];
 
 		indexy[0] = [];
@@ -80,15 +80,32 @@ function vybudujPismeno(pismeno){
 		indexy[2] = [5];
 		indexy[3] = [5];
 		indexy[4] = [5];
-		indexy[5] = [5, 6, 7, 8, 9, 10, 11];
-		indexy[6] = [11];
-		indexy[7] = [11];
-		indexy[8] = [11];
-		indexy[9] = [5, 6, 7, 8, 9, 10, 11];
+		indexy[5] = [5, 6, 7, 8];
+		indexy[6] = [5];
+		indexy[7] = [5];
+		indexy[8] = [5];
+		indexy[9] = [5];
 		indexy[10] = [];
 
 	}
+	
+        if(pismeno == "H") {
+		var indexy = [];
 
+		indexy[0] = [];
+		indexy[1] = [5, 11];
+		indexy[2] = [5, 11];
+		indexy[3] = [5, 11];
+		indexy[4] = [5, 11];
+		indexy[5] = [5, 6, 7, 8, 9, 10, 11];
+		indexy[6] = [5, 11];
+		indexy[7] = [5, 11];
+		indexy[8] = [5, 11];
+		indexy[9] = [5, 11];
+		indexy[10] = [];
+
+	}
+	
 	if(pismeno == "I") {
 		var indexy = [];
 
@@ -106,19 +123,53 @@ function vybudujPismeno(pismeno){
 
 	}
 	
-	if(pismeno == "A") {
+	if(pismeno == "L") {
 		var indexy = [];
 
 		indexy[0] = [];
-		indexy[1] = [7, 8, 9];
-		indexy[2] = [6, 10];
-		indexy[3] = [5, 11];
-		indexy[4] = [5, 11];
+		indexy[1] = [5];
+		indexy[2] = [5];
+		indexy[3] = [5];
+		indexy[4] = [5];
+		indexy[5] = [5];
+		indexy[6] = [5];
+		indexy[7] = [5];
+		indexy[8] = [5];
+		indexy[9] = [5, 6, 7, 8, 9, 10, 11];
+		indexy[10] = [];
+
+	}
+	
+	if(pismeno == "S") {
+		var indexy = [];
+
+		indexy[0] = [];
+		indexy[1] = [5, 6, 7, 8, 9, 10, 11];
+		indexy[2] = [5];
+		indexy[3] = [5];
+		indexy[4] = [5];
 		indexy[5] = [5, 6, 7, 8, 9, 10, 11];
-		indexy[6] = [5, 11];
-		indexy[7] = [5, 11];
-		indexy[8] = [5, 11];
-		indexy[9] = [5, 11];
+		indexy[6] = [11];
+		indexy[7] = [11];
+		indexy[8] = [11];
+		indexy[9] = [5, 6, 7, 8, 9, 10, 11];
+		indexy[10] = [];
+
+	}
+	
+	if(pismeno == "T") {
+		var indexy = [];
+
+		indexy[0] = [];
+		indexy[1] = [5, 6, 7, 8, 9, 10, 11];
+		indexy[2] = [8];
+		indexy[3] = [8];
+		indexy[4] = [8];
+		indexy[5] = [8];
+		indexy[6] = [8];
+		indexy[7] = [8];
+		indexy[8] = [8];
+		indexy[9] = [8];
 		indexy[10] = [];
 
 	}
