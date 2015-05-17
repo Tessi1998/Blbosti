@@ -202,7 +202,7 @@ function vybudujPismeno(pismeno){
 		indexy[2] = [6,7,9,10];
 		indexy[3] = [6,8,10];
 		indexy[4] = [6,10];				
-		indexy[5] = [9,10];		
+		indexy[5] = [6,10];		
 		indexy[6] = [6,10];
 		indexy[7] = [6,10];
 	}
