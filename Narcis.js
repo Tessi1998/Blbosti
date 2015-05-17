@@ -292,7 +292,7 @@ function vybudujPismeno(pismeno){
 	if(pismeno == "T") {
 
 		indexy[0] = [];
-		indexy[1] = [6,6,7,8,9,10];
+		indexy[1] = [6,7,8,9,10];
 		indexy[2] = [8];
 		indexy[3] = [8];
 		indexy[4] = [8];
