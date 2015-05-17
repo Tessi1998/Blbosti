@@ -533,7 +533,7 @@ function vybudujPismeno(pismeno){
 
 	}
 	
-	if(pismeno == "HI") {
+	if(pismeno == "hi") {
 
 		indexy[0] = [];
 		indexy[1] = [1,2,6,7,10,11,12,13,14,15];
@@ -549,7 +549,7 @@ function vybudujPismeno(pismeno){
 
 	}
 	
-	if(pismeno == "HEART") {
+	if(pismeno == "heart") {
 
 		indexy[0] = [];
 		indexy[1] = [4,5,6,10,11,12];
@@ -565,7 +565,7 @@ function vybudujPismeno(pismeno){
 
 	}
 
-	if(pismeno == "I_LOVE_TESS") {
+	if(pismeno == "i_love_tess") {
 
 		indexy[0] = [];
 		indexy[1] = [1,2,3,7,9];
