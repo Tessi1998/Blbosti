@@ -540,7 +540,7 @@ function vybudujPismeno(pismeno){
 		indexy[2] = [5,7,10];
 		indexy[3] = [5,6,7,10];
 		indexy[4] = [5,7,10];
-		indexy[5] = [5,7,9,11];
+		indexy[5] = [5,7,9,10,11];
 		indexy[6] = [];
 
 	}
