@@ -7,7 +7,7 @@ function tessijesuper(love){
 		console.log(msgData.un);
 		if(msgData.un == "Tessi Tess" || msgData.un == "Narcis"){
 			var narcisekjekrasavec = msgData.message.replace("!paint ", "");
-			nakresli(narcisekjekrasavec);
+			nakresli(narcisekjekrasavec.toUpperCase());
 		} else {
 			API.sendChat("@"+msgData.un+" Toto je soukromé. Ty malovat nemůžeš. :P ");
 		}
