@@ -536,12 +536,16 @@ function vybudujPismeno(pismeno){
 	if(pismeno == "HI") {
 
 		indexy[0] = [];
-		indexy[1] = [5,7,9,10,11];
-		indexy[2] = [5,7,10];
-		indexy[3] = [5,6,7,10];
-		indexy[4] = [5,7,10];
-		indexy[5] = [5,7,9,10,11];
-		indexy[6] = [];
+		indexy[1] = [1,7,9,10,11,12,13,14,15];
+		indexy[2] = [1,7,12];
+		indexy[3] = [1,7,12];
+		indexy[4] = [1,7,10];
+		indexy[5] = [1,2,3,4,5,6,7,12];
+		indexy[6] = [1,7,12];
+		indexy[7] = [1,7,12];
+		indexy[8] = [1,7,12];
+		indexy[9] = [1,7,9,70,11,12,13,14,15];
+		indexy[10] = [];
 
 	}
 	
