@@ -383,7 +383,7 @@ function vybudujPismeno(pismeno){
 		indexy[7] = [6,10];
 		indexy[8] = [7,9];
 		indexy[9] = [8];
-		indexy[10] = [0];
+		indexy[10] = [];
 
 	}
 
