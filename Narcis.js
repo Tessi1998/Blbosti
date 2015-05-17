@@ -9,7 +9,7 @@ function tessijesuper(love){
 			var narcisekjekrasavec = msgData.message.replace("!paint ", "");
 			nakresli(narcisekjekrasavec);
 		} else {
-			API.sendChat("@"+msgData.un+" Toto je soukromé. Ty malovat nemůžeš. :P ");
+			API.sendChat("@"+msgData.un+" Toto je soukromĂ©. Ty malovat nemĹŻĹľeĹˇ. :P ");
 		}
 	}
 
@@ -26,7 +26,7 @@ function nakresli(text){
 	window.temp_letter = [];
 	for (var h = 1; h < text.length; h++) {
 		window.temp_letter.push(text[h]);
-		posliPrikazNaKreslenie(h, (h*12000));
+		posliPrikazNaKreslenie(h, (h*4500));
 	};
 
 }
@@ -587,7 +587,7 @@ function vybudujPismeno(pismeno){
 
 
 	for (var z = 0; z < window.temp_spravy.length; z++) {
-		posliSpravu(z, (z*1100));
+		posliSpravu(z, (z*500));
 	};
 
 }
