@@ -3,10 +3,10 @@ API.on(API.CHAT, tessijesuper);
 
 function tessijesuper(love){
 	var msgData = love;
-	if(msgData.message.indexOf("!maluj") > -1){
+	if(msgData.message.indexOf("!paint") > -1){
 		console.log(msgData.un);
 		if(msgData.un == "Tessi Tess" || msgData.un == "Narcis"){
-			var narcisekjekrasavec = msgData.message.replace("!maluj ", "");
+			var narcisekjekrasavec = msgData.message.replace("!paint ", "");
 			nakresli(narcisekjekrasavec);
 		} else {
 			API.sendChat("@"+msgData.un+" Toto je soukromé. Ty malovat nemůžeš. :P ");
