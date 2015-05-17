@@ -371,6 +371,162 @@ function vybudujPismeno(pismeno){
 
 	}
 	
+	if(pismeno == "1") {
+
+		indexy[0] = [];
+		indexy[1] = [8];
+		indexy[2] = [7,8];
+		indexy[3] = [6,8];
+		indexy[4] = [8];
+		indexy[5] = [8];
+		indexy[6] = [8];
+		indexy[7] = [6,7,8,9,10];
+
+	}
+	
+	if(pismeno == "2") {
+
+		indexy[0] = [];
+		indexy[1] = [7,8,9];
+		indexy[2] = [6,10];
+		indexy[3] = [10];
+		indexy[4] = [9];
+		indexy[5] = [8];
+		indexy[6] = [8];
+		indexy[7] = [6,7,8,9,10];
+
+	}
+	
+	if(pismeno == "3") {
+
+		indexy[0] = [];
+		indexy[1] = [7,8,9];
+		indexy[2] = [6,10];
+		indexy[3] = [10];
+		indexy[4] = [8,9];
+		indexy[5] = [10];
+		indexy[6] = [6,10];
+		indexy[7] = [7,8,9];
+
+	}
+	
+	if(pismeno == "4") {
+
+		indexy[0] = [];
+		indexy[1] = [9];
+		indexy[2] = [8,9];
+		indexy[3] = [7,9];
+		indexy[4] = [6,9];
+		indexy[5] = [6,7,8,9,10];
+		indexy[6] = [9];
+		indexy[7] = [9];
+
+	}
+	
+	if(pismeno == "5") {
+
+		indexy[0] = [];
+		indexy[1] = [6,7,8,9,10];
+		indexy[2] = [6];
+		indexy[3] = [6];
+		indexy[4] = [6,7,8,9];
+		indexy[5] = [10];
+		indexy[6] = [6,10];
+		indexy[7] = [7,8,9];
+
+	}
+	
+	if(pismeno == "6") {
+
+		indexy[0] = [];
+		indexy[1] = [7,8,9];
+		indexy[2] = [6,10];
+		indexy[3] = [6];
+		indexy[4] = [6,7,8,9];
+		indexy[5] = [6,10];
+		indexy[6] = [6,10];
+		indexy[7] = [7,8,9];
+
+	}
+	
+	if(pismeno == "7") {
+
+		indexy[0] = [];
+		indexy[1] = [6,7,8,9,10];
+		indexy[2] = [10];
+		indexy[3] = [9];
+		indexy[4] = [8];
+		indexy[5] = [7];
+		indexy[6] = [7];
+		indexy[7] = [7];
+
+	}
+	
+	if(pismeno == "8") {
+
+		indexy[0] = [];
+		indexy[1] = [7,8,9];
+		indexy[2] = [6,10];
+		indexy[3] = [6,10];
+		indexy[4] = [7,8,9];
+		indexy[5] = [6,10];
+		indexy[6] = [6,10];
+		indexy[7] = [7,8,9];
+
+	}
+	
+	if(pismeno == "9") {
+
+		indexy[0] = [];
+		indexy[1] = [7,8,9];
+		indexy[2] = [6,10];
+		indexy[3] = [6,10];
+		indexy[4] = [7,8,9];
+		indexy[5] = [10];
+		indexy[6] = [6,10];
+		indexy[7] = [7,8,9];
+
+	}
+	
+	if(pismeno == "0") {
+
+		indexy[0] = [];
+		indexy[1] = [7,8,9];
+		indexy[2] = [6,10];
+		indexy[3] = [6,7,10];
+		indexy[4] = [6,8,10];
+		indexy[5] = [6,9,10];
+		indexy[6] = [6,10];
+		indexy[7] = [7,8,9];
+
+	}
+	
+	if(pismeno == "!") {
+
+		indexy[0] = [];
+		indexy[1] = [6,7,8,9,10];
+		indexy[2] = [6,10];
+		indexy[3] = [7,9];
+		indexy[4] = [7,9];
+		indexy[5] = [8];
+		indexy[6] = [];
+		indexy[7] = [8];
+
+	}
+	
+	if(pismeno == "?") {
+
+		indexy[0] = [];
+		indexy[1] = [7,8,9];
+		indexy[2] = [6,10];
+		indexy[3] = [10];
+		indexy[4] = [9];
+		indexy[5] = [8];
+		indexy[6] = [];
+		indexy[7] = [8];
+
+	}
+	
 	if(pismeno == "HEART") {
 
 		indexy[0] = [];
