@@ -24,10 +24,17 @@ function posliSpravu(index, timeout){
 function nakresli(text){
 	vybudujPismeno(text[0]);
 	window.temp_letter = [];
-	for (var h = 1; h < text.length; h++) {
-		window.temp_letter.push(text[h]);
-		posliPrikazNaKreslenie(h, (h*4500));
-	};
+
+	if(text.indexOf("special:") > -1){
+		vybudujPismeno(text.replace("special:", ""));
+	} else {
+
+		for (var h = 1; h < text.length; h++) {
+			window.temp_letter.push(text[h]);
+			posliPrikazNaKreslenie(h, (h*4500));
+		};
+
+	}
 
 }
 function posliPrikazNaKreslenie(index, timeout){
