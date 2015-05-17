@@ -9,7 +9,7 @@ function tessijesuper(love){
 			var narcisekjekrasavec = msgData.message.replace("!paint ", "");
 			nakresli(narcisekjekrasavec);
 		} else {
-			API.sendChat("@"+msgData.un+" Toto je soukromĂ©. Ty malovat nemĹŻĹľeĹˇ. :P ");
+			API.sendChat("@"+msgData.un+" Toto je soukromé. Ty malovat nemůžeš. :P ");
 		}
 	}
 
