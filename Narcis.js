@@ -1,15 +1,16 @@
 API.off(API.CHAT, tessijesuper);
+
 API.on(API.CHAT, tessijesuper);
 
 function tessijesuper(love){
 	var msgData = love;
 	if(msgData.message.indexOf("!paint") > -1){
-		console.log(msgData.un);
+
 		if(msgData.un == "Tessi Tess" || msgData.un == "Narcis"){
 			var narcisekjekrasavec = msgData.message.replace("!paint ", "");
 			nakresli(narcisekjekrasavec.toUpperCase());
 		} else {
-			API.sendChat("@"+msgData.un+" Toto je soukromé. Ty malovat nemůžeš. :P ");
+			API.sendChat("@"+msgData.un+" Toto je soukromĂ©. Ty malovat nemĹŻĹľeĹˇ. :P ");
 		}
 	}
 
@@ -25,20 +26,20 @@ function nakresli(text){
 	vybudujPismeno(text[0]);
 	window.temp_letter = [];
 
-	if(text.indexOf("special:") > -1){
-		vybudujPismeno(text.replace("special:", ""));
+	if(text.indexOf("--") > -1){
+		vybudujPismeno(text.replace("--", ""));
 	} else {
 
 		for (var h = 1; h < text.length; h++) {
 			window.temp_letter.push(text[h]);
-			posliPrikazNaKreslenie(h, (h*4500));
+			posliPrikazNaKreslenie(h, (h*12500));
 		};
 
 	}
 
 }
 function posliPrikazNaKreslenie(index, timeout){
-	console.log("INDEX: "+index);
+
 	setTimeout(function(){
 		vybudujPismeno(window.temp_letter[index-1]);
 	}, timeout);
@@ -57,6 +58,7 @@ function vybudujPismeno(pismeno){
 		indexy[5] = [6,10];
 		indexy[6] = [6,10];
 		indexy[7] = [6,10];
+
 
 	}
 
@@ -539,9 +541,8 @@ function vybudujPismeno(pismeno){
 		indexy[0] = [];
 
 	}
-	
-	if(pismeno == "HI") {
 
+	if(pismeno == "HI"){
 		indexy[0] = [];
 		indexy[1] = [1,2,6,7,10,11,12,13,14,15];
 		indexy[2] = [1,2,6,7,10,11,12,13,14,15];
@@ -553,42 +554,67 @@ function vybudujPismeno(pismeno){
 		indexy[8] = [1,2,6,7,10,11,12,13,14,15];
 		indexy[9] = [1,2,6,7,10,11,12,13,14,15];
 		indexy[10] = [];
-
 	}
 	
 	if(pismeno == "HEART") {
 
 		indexy[0] = [];
-		indexy[1] = [4,5,6,10,11,12];
-		indexy[2] = [3,7,9,13];
-		indexy[3] = [3,8,13];
-		indexy[4] = [3,8,13];				
-		indexy[5] = [4,12];		
-		indexy[6] = [5,11];
-		indexy[7] = [6,10];
-		indexy[8] = [7,9];
-		indexy[9] = [8];
+		indexy[1] = ["4", "5", "6", "10", "11", "12"];
+		indexy[2] = ["3", "4-red", "5-red", "6-red", "7", "9", "10-red", "11-red", "12-red", "13"];
+		indexy[3] = ["3", "4-red", "5-red", "6-red", "7-red", "8", "9-red", "10-red", "11-red", "12-red", "13"];
+		indexy[4] = ["3", "4-red", "5-red", "6-red", "7-red", "8", "9-red", "10-red", "11-red", "12-red", "13"];				
+		indexy[5] = ["4", "5-red", "6-red", "7-red", "8-red", "9-red", "10-red", "11-red", "12"];		
+		indexy[6] = ["5", "6-red", "7-red", "8-red", "9-red", "10-red", "11"];
+		indexy[7] = ["6", "7-red", "8-red", "9-red", "10"];
+		indexy[8] = ["7", "8-red", "9"];
+		indexy[9] = ["8"];
 		indexy[10] = [];
 
 	}
 
-	if(pismeno == "I_LOVE_TESS") {
+	if(pismeno == "TESS") {
 
 		indexy[0] = [];
-		indexy[1] = [1,2,3,7,9];
-		indexy[2] = [2,8,6,10];
-		indexy[3] = [2,6,10];
-		indexy[4] = [1,2,3,7,9];				
-		indexy[5] = [8];
+		indexy[1] = ["1", "2", "3", "7", "9"];
+		indexy[2] = ["2", "8", "6", "7-red", "9-red", "10"];
+		indexy[3] = ["2", "6", "10", "7-red", "8-red", "9-red"];
+		indexy[4] = ["1", "2", "3", "7", "9", "8-red"];				
+		indexy[5] = ["8"];
 		indexy[6] = [];
-		indexy[7] = [1,2,3,5,6,7,9,10,11,13,14,15];
-		indexy[8] = [2,5,9,13];
-		indexy[9] = [2,5,6,9,10,11,13,14,15];
-		indexy[10] = [2,5,11,15];
-		indexy[11] = [2,5,6,7,9,10,11,13,14,15];
+		indexy[7] = ["1", "2", "3", "5", "6", "7", "9", "10", "11", "13", "14", "15"];
+		indexy[8] = ["2", "5", "9", "13"];
+		indexy[9] = ["2", "5", "6", "9", "10", "11", "13", "14", "15"];
+		indexy[10] = ["2", "5", "11", "15"];
+		indexy[11] = ["2", "5", "6", "7", "9", "10", "11", "13", "14", "15"];
 		indexy[12] = [];
 
 	}
+
+	if(pismeno == "SLOVAKIA"){
+		indexy[0] = ["1-white", "2-white", "3-white", "4-white", "5-white", "6", "7", "8", "9", "10", "11-red", "12-red", "13-red", "14-red", "15-red"];
+		indexy[1] = ["1-white", "2-white", "3-white", "4-white", "5-white", "6", "7", "8", "9", "10", "11-red", "12-red", "13-red", "14-red", "15-red"];
+		indexy[2] = ["1-white", "2-white", "3-white", "4-white", "5-white", "6", "7", "8", "9", "10", "11-red", "12-red", "13-red", "14-red", "15-red"];
+		indexy[3] = ["1-white", "2-white", "3-white", "4-white", "5-white", "6", "7", "8", "9", "10", "11-red", "12-red", "13-red", "14-red", "15-red"];
+		indexy[4] = ["1-white", "2-white", "3-white", "4-white", "5-white", "6", "7", "8", "9", "10", "11-red", "12-red", "13-red", "14-red", "15-red"];
+		indexy[5] = ["1-white", "2-white", "3-white", "4-white", "5-white", "6", "7", "8", "9", "10", "11-red", "12-red", "13-red", "14-red", "15-red"];
+		indexy[6] = ["1-white", "2-white", "3-white", "4-white", "5-white", "6", "7", "8", "9", "10", "11-red", "12-red", "13-red", "14-red", "15-red"];
+		indexy[7] = ["1-white", "2-white", "3-white", "4-white", "5-white", "6", "7", "8", "9", "10", "11-red", "12-red", "13-red", "14-red", "15-red"];
+		indexy[8] = ["1-white", "2-white", "3-white", "4-white", "5-white", "6", "7", "8", "9", "10", "11-red", "12-red", "13-red", "14-red", "15-red"];
+		indexy[9] = ["1-white", "2-white", "3-white", "4-white", "5-white", "6-white", "7-white", "8-white", "9-white", "10-white", "11-red", "12-red", "13-red", "14-red", "15-red"];
+		indexy[10] = ["1-white", "2-white", "3-red", "4-red", "5-red", "6-red", "7-red", "8-red", "9-red", "10-red", "11-white", "12-red", "13-red", "14-red", "15-red"];
+		indexy[11] = ["1-white", "2-white", "3-red", "4-red", "5-red", "6-white", "7-red", "8-white", "9-white", "10-red", "11", "12-white", "13-red", "14-red", "15-red"];
+		indexy[12] = ["1-white", "2-white", "3-red", "4-red", "5-red", "6-white", "7-red", "8-white", "9-white", "10-red", "11", "12", "13-white", "14-red", "15-red"];
+		indexy[13] = ["1-white", "2-white", "3-red", "4-white", "5-white", "6-white", "7-white", "8-white", "9-white", "10-white", "11-white", "12", "13", "14-white", "15-red"];
+		indexy[14] = ["1-white", "2-white", "3-red", "4-red", "5-red", "6-white", "7-red", "8-white", "9-white", "10-red", "11", "12", "13-white", "14-red", "15-red"];
+		indexy[15] = ["1-white", "2-white", "3-red", "4-red", "5-red", "6-white", "7-red", "8-white", "9-white", "10-red", "11", "12-white", "13-red", "14-red", "15-red"];
+		indexy[16] = ["1-white", "2-white", "3-red", "4-red", "5-red", "6-red", "7-red", "8-red", "9-red", "10-red", "11-white", "12-red", "13-red", "14-red", "15-red"];
+		indexy[17] = ["1-white", "2-white", "3-white", "4-white", "5-white", "6-white", "7-white", "8-white", "9-white", "10-white", "11-red", "12-red", "13-red", "14-red", "15-red"];
+		indexy[18] = ["1-white", "2-white", "3-white", "4-white", "5-white", "6", "7", "8", "9", "10", "11-red", "12-red", "13-red", "14-red", "15-red"];
+		indexy[19] = ["1-white", "2-white", "3-white", "4-white", "5-white", "6", "7", "8", "9", "10", "11-red", "12-red", "13-red", "14-red", "15-red"];
+	
+	}
+
+
 	window.temp_spravy = [];
 
 	for (var i = 0; i < indexy.length; i++) {
@@ -600,7 +626,20 @@ function vybudujPismeno(pismeno){
 		};
 
 		for (var ii = 0; ii < indexy[i].length; ii++) {
-			pozadie[indexy[i][ii]] = ":blue_heart:";
+
+			if(indexy[i][ii].toString().indexOf("-red") > -1){
+
+				var bezPomlcky = Number(indexy[i][ii].replace("-red", ""));
+				     pozadie[bezPomlcky] = ":heart:";
+
+			} else if(indexy[i][ii].toString().indexOf("-white") > -1){
+
+				var bezPomlcky = indexy[i][ii].replace("-white", "");
+				     pozadie[bezPomlcky] = ":white_circle:";
+
+			} else {
+				pozadie[indexy[i][ii]] = ":blue_heart:";
+			}
 		};
 
 		window.temp_spravy[i] = pozadie.join("");
@@ -610,7 +649,7 @@ function vybudujPismeno(pismeno){
 
 
 	for (var z = 0; z < window.temp_spravy.length; z++) {
-		posliSpravu(z, (z*500));
+		posliSpravu(z, (z*1200));
 	};
 
 }
