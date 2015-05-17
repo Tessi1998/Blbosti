@@ -533,6 +533,18 @@ function vybudujPismeno(pismeno){
 
 	}
 	
+	if(pismeno == "HI") {
+
+		indexy[0] = [];
+		indexy[1] = [5,7,9,10,11];
+		indexy[2] = [5,7,10];
+		indexy[3] = [5,6,7,10];
+		indexy[4] = [5,7,10];
+		indexy[5] = [5,7,9,11];
+		indexy[6] = [];
+
+	}
+	
 	if(pismeno == "HEART") {
 
 		indexy[0] = [];
