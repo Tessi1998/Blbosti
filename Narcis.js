@@ -623,7 +623,7 @@ function vybudujPismeno(pismeno){
 		indexy[1] = ["1", "2", "3", "7", "9"];
 		indexy[2] = ["2", "8", "6", "7-red", "9-red", "10"];
 		indexy[3] = ["2", "6", "10", "7-red", "8-red", "9-red"];
-		indexy[4] = ["1", "7", "9", "8-red"];				
+		indexy[4] = ["2", "7", "9", "8-red"];				
 		indexy[5] = ["1", "2", "3", "8"];
 		indexy[6] = [];
 		indexy[7] = ["1", "4", "7", "10", "11", "14-red", "15-red"];
