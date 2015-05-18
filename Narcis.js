@@ -648,8 +648,8 @@ if(pismeno == "CZECH"){
 		indexy[3] = ["1-white", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "15-red"];
 		indexy[4] = ["1-white", "2-white", "4", "5", "6", "7", "8", "9", "10", "11", "12", "14-red", "15-red"];
 		indexy[5] = ["1-white", "2-white", "3-white", "5", "6", "7", "8", "9", "10", "11", "13-red", "14-red", "15-red"];
-		indexy[6] = ["1-white", "2-white", "3-white", "4-white","6", "7", "8", "9", "10", "11-red", "12-red", "13-red", "14-red", "15-red"];
-		indexy[7] = ["1-white", "2-white", "3-white", "4-white", "5-white", "6", "7", "8", "9", "10", "11-red", "12-red", "13-red", "14-red", "15-red"];
+		indexy[6] = ["1-white", "2-white", "3-white", "4-white","6", "7", "8", "9", "10", "12-red", "13-red", "14-red", "15-red"];
+		indexy[7] = ["1-white", "2-white", "3-white", "4-white", "5-white", "7", "8", "9", "11-red", "12-red", "13-red", "14-red", "15-red"];
 		indexy[8] = ["1-white", "2-white", "3-white", "4-white", "5-white", "6-white", "8", "10-red", "11-red", "12-red", "13-red", "14-red", "15-red"];
 		indexy[9] = ["1-white", "2-white", "3-white", "4-white", "5-white", "6-white", "7-white", "9-red", "10-red", "11-red", "12-red", "13-red", "14-red", "15-red"];
 		indexy[10] = ["1-white", "2-white", "3-white", "4-white", "5-white", "6-white", "7-white", "9-red", "10-red", "11-red", "12-red", "13-red", "14-red", "15-red"];
