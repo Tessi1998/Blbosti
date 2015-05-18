@@ -663,9 +663,29 @@ if(pismeno == "CZECH"){
 		indexy[18] = ["1-white", "2-white", "3-white", "4-white", "5-white", "6-white", "7-white", "9-red", "10-red", "11-red", "12-red", "13-red", "14-red", "15-red"];
 		indexy[19] = ["1-white", "2-white", "3-white", "4-white", "5-white", "6-white", "7-white", "9-red", "10-red", "11-red", "12-red", "13-red", "14-red", "15-red"];
 		indexy[20] = ["1-white", "2-white", "3-white", "4-white", "5-white", "6-white", "7-white", "9-red", "10-red", "11-red", "12-red", "13-red", "14-red", "15-red"];
-	    indexy[21] = []
+	        indexy[21] = []
 	
-		
+	}
+
+        if(pismeno == "flover") {
+
+		indexy[0] = [];
+		indexy[1] = ["2-white", "3-white", "4-white", "5-white", "6-white", "10-white", "11-white", "12-white", "13-white", "14-white"];
+		indexy[2] = ["2-white", "3-white", "4-white", "5-white", "6-white", "7-white", "9-white", "10-white", "11-white", "12-white", "13-white", "14-white"];
+		indexy[3] = ["2-white", "3-white", "4-white", "5-white", "6-white", "7-white", "9-white", "10-white", "11-white", "12-white", "13-white", "14-white"];
+		indexy[4] = ["2-white", "3-white", "4-white", "5-white", "11-white", "12-white", "13-white", "14-white"];				
+		indexy[5] = ["2-white", "3-white", "4-white", "6-yellow", "7-yellow", "8-yellow", "9-yellow", "10-yellow", "12-white", "13-white", "14-white"];
+		indexy[6] = ["3-white", "4-white", "6-yellow", "7-yellow", "8-yellow", "9-yellow", "10-yellow", "12-white", "13-white"];
+		indexy[7] = ["6-yellow", "7-yellow", "8-yellow", "9-yellow"];
+		indexy[8] = ["3-white", "4-white", "6-yellow", "7-yellow", "8-yellow", "9-yellow", "10-yellow", "12-white", "13-white"];
+		indexy[9] = ["2-white", "3-white", "4-white", "6-yellow", "7-yellow", "8-yellow", "9-yellow", "10-yellow", "12-white", "13-white", "14-white"];
+		indexy[10] = ["2-white", "3-white", "4-white", "5-white", "11-white", "12-white", "13-white", "14-white"];
+		indexy[11] = ["2-white", "3-white", "4-white", "5-white", "6-white", "7-white", "9-white", "10-white", "11-white", "12-white", "13-white", "14-white"];
+		indexy[12] = ["2-white", "3-white", "4-white", "5-white", "6-white", "7-white", "9-white", "10-white", "11-white", "12-white", "13-white", "14-white"];
+		indexy[13] = ["2-white", "3-white", "4-white", "5-white", "6-white", "10-white", "11-white", "12-white", "13-white", "14-white"];
+		indexy[14] = [];
+
+
 	}
 
 
@@ -690,7 +710,12 @@ if(pismeno == "CZECH"){
 
 				var bezPomlcky = indexy[i][ii].replace("-white", "");
 				     pozadie[bezPomlcky] = ":white_circle:";
+                        
+			} else if(indexy[i][ii].toString().indexOf("-white") > -1){
 
+				var bezPomlcky = indexy[i][ii].replace("-yellow", "");
+				     pozadie[bezPomlcky] = ":yellow_heart: ";
+                           
 			} else {
 				pozadie[indexy[i][ii]] = ":blue_heart:";
 			}
