@@ -641,6 +641,33 @@ function vybudujPismeno(pismeno){
 
 	}
 
+if(pismeno == "CZECH"){
+		indexy[0] = []
+		indexy[1] = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"];
+		indexy[2] = ["2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14"];
+		indexy[3] = ["1-white", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "15-red"];
+		indexy[4] = ["1-white", "2-white", "4", "5", "6", "7", "8", "9", "10", "11", "12", "14-red", "15-red"];
+		indexy[5] = ["1-white", "2-white", "3-white", "5", "6", "7", "8", "9", "10", "11", "13-red", "14-red", "15-red"];
+		indexy[6] = ["1-white", "2-white", "3-white", "4-white","6", "7", "8", "9", "10", "11-red", "12-red", "13-red", "14-red", "15-red"];
+		indexy[7] = ["1-white", "2-white", "3-white", "4-white", "5-white", "6", "7", "8", "9", "10", "11-red", "12-red", "13-red", "14-red", "15-red"];
+		indexy[8] = ["1-white", "2-white", "3-white", "4-white", "5-white", "6-white", "8", "10-red", "11-red", "12-red", "13-red", "14-red", "15-red"];
+		indexy[9] = ["1-white", "2-white", "3-white", "4-white", "5-white", "6-white", "7-white", "9-red", "10-red", "11-red", "12-red", "13-red", "14-red", "15-red"];
+		indexy[10] = ["1-white", "2-white", "3-white", "4-white", "5-white", "6-white", "7-white", "9-red", "10-red", "11-red", "12-red", "13-red", "14-red", "15-red"];
+		indexy[11] = ["1-white", "2-white", "3-white", "4-white", "5-white", "6-white", "7-white", "9-red", "10-red", "11-red", "12-red", "13-red", "14-red", "15-red"];
+		indexy[12] = ["1-white", "2-white", "3-white", "4-white", "5-white", "6-white", "7-white", "9-red", "10-red", "11-red", "12-red", "13-red", "14-red", "15-red"];
+		indexy[13] = ["1-white", "2-white", "3-white", "4-white", "5-white", "6-white", "7-white", "9-red", "10-red", "11-red", "12-red", "13-red", "14-red", "15-red"];
+		indexy[14] = ["1-white", "2-white", "3-white", "4-white", "5-white", "6-white", "7-white", "9-red", "10-red", "11-red", "12-red", "13-red", "14-red", "15-red"];
+		indexy[15] = ["1-white", "2-white", "3-white", "4-white", "5-white", "6-white", "7-white", "9-red", "10-red", "11-red", "12-red", "13-red", "14-red", "15-red"];
+		indexy[16] = ["1-white", "2-white", "3-white", "4-white", "5-white", "6-white", "7-white", "9-red", "10-red", "11-red", "12-red", "13-red", "14-red", "15-red"];
+		indexy[17] = ["1-white", "2-white", "3-white", "4-white", "5-white", "6-white", "7-white", "9-red", "10-red", "11-red", "12-red", "13-red", "14-red", "15-red"];
+		indexy[18] = ["1-white", "2-white", "3-white", "4-white", "5-white", "6-white", "7-white", "9-red", "10-red", "11-red", "12-red", "13-red", "14-red", "15-red"];
+		indexy[19] = ["1-white", "2-white", "3-white", "4-white", "5-white", "6-white", "7-white", "9-red", "10-red", "11-red", "12-red", "13-red", "14-red", "15-red"];
+		indexy[20] = ["1-white", "2-white", "3-white", "4-white", "5-white", "6-white", "7-white", "9-red", "10-red", "11-red", "12-red", "13-red", "14-red", "15-red"];
+	    indexy[21] = []
+	
+		
+	}
+
 
 	window.temp_spravy = [];
 
