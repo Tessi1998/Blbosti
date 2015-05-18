@@ -667,7 +667,7 @@ if(pismeno == "CZECH"){
 	
 	}
 
-        if(pismeno == "flover") {
+        if(pismeno == "FLOVER") {
 
 		indexy[0] = [];
 		indexy[1] = ["2-white", "3-white", "4-white", "5-white", "6-white", "10-white", "11-white", "12-white", "13-white", "14-white"];
