@@ -714,8 +714,10 @@ if(pismeno == "CZECH"){
 			} else if(indexy[i][ii].toString().indexOf("-white") > -1){
 
 				var bezPomlcky = indexy[i][ii].replace("-yellow", "");
-				     pozadie[bezPomlcky] = ":yellow_heart: ";
+				     pozadie[bezPomlcky] = ":yellow_heart:";
                            
+			} else if(indexy[i][ii].toString().indexOf("-yellow") > -1){
+				
 			} else {
 				pozadie[indexy[i][ii]] = ":blue_heart:";
 			}
