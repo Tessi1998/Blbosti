@@ -543,6 +543,7 @@ function vybudujPismeno(pismeno){
 	}
 
 	if(pismeno == "HI"){
+		
 		indexy[0] = [];
 		indexy[1] = [1,2,6,7,10,11,12,13,14,15];
 		indexy[2] = [1,2,6,7,10,11,12,13,14,15];
@@ -591,6 +592,7 @@ function vybudujPismeno(pismeno){
 	}
 
 	if(pismeno == "SLOVAKIA"){
+		
 		indexy[0] = []
 		indexy[1] = ["1-white", "2-white", "3-white", "4-white", "5-white", "6", "7", "8", "9", "10", "11-red", "12-red", "13-red", "14-red", "15-red"];
 		indexy[2] = ["1-white", "2-white", "3-white", "4-white", "5-white", "6", "7", "8", "9", "10", "11-red", "12-red", "13-red", "14-red", "15-red"];
@@ -641,7 +643,8 @@ function vybudujPismeno(pismeno){
 
 	}
 
-if(pismeno == "CZECH"){
+        if(pismeno == "CZECH"){
+        	
 		indexy[0] = []
 		indexy[1] = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"];
 		indexy[2] = ["2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14"];
@@ -689,6 +692,7 @@ if(pismeno == "CZECH"){
 	}
 	
 	if(pismeno == "WOOT"){
+		
 		indexy[0] = ["0-white", "1-white", "2-white", "3-white", "4-white", "5-white", "6-white", "7-white", "8-white", "9-white", "10-white", "11-white", "12-white", "13-white", "14-white", "15-white", "16-white"];
 		indexy[1] = ["0-white", "16-white"];
 		indexy[2] = ["0-white", "8-green", "16-white"];
@@ -706,8 +710,8 @@ if(pismeno == "CZECH"){
 
 	}
 
-        if(pismeno == "PLUG") {
-
+        if(pismeno == "PLUG.DJ") {
+        	
 		indexy[0] = [];
 		indexy[1] = ["5-white", "6-white", "7-white", "8-white", "9-white", "10-white", "11-white"];
 		indexy[2] = ["4-white", "5-white", "6-white", "7-white", "8-white", "9-white", "10-white", "11-white", "12-white"];
