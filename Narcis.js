@@ -725,8 +725,7 @@ function vybudujPismeno(pismeno){
 		indexy[10] = ["2-white", "3-white", "5", "6", "10", "11", "13-white", "14-white"];
 		indexy[11] = ["5", "6", "10", "11"];
 		indexy[12] = ["5", "6", "10", "11"];
-		indexy[13] = ["5", "6", "10", "11"];
-		indexy[14] = [];
+		indexy[13] = [];
 
 	}
 
