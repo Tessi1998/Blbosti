@@ -687,6 +687,25 @@ if(pismeno == "CZECH"){
 
 
 	}
+	
+	if(pismeno == "WOOT"){
+		indexy[0] = ["0-white", "1-white", "2-white", "3-white", "4-white", "5-white", "6-white", "7-white", "8-white", "9-white", "10-white", "11-white", "12-white", "13-white", "14-white", "15-white", "16-white"];
+		indexy[1] = ["0-white", "16-white"];
+		indexy[2] = ["0-white", "8-green", "16-white"];
+		indexy[3] = ["0-white", "7-green", "8-green", "9-green", "16-white"];
+		indexy[4] = ["0-white", "6-green", "7-green", "8-green", "9-green", "10-green", "16-white"];
+		indexy[5] = ["0-white", "7-green", "8-green", "9-green", "16-white"];
+		indexy[6] = ["0-white", "7-green", "8-green", "9-green", "16-white"];
+		indexy[7] = ["0-white", "7-green", "8-green", "9-green", "16-white"];
+		indexy[8] = ["0-white", "16-white"];
+
+		indexy[9] = ["0-white", "1-white", "2-white", "3-white", "4-white", "5-white", "6-white", "7-white", "8-white", "9-white", "10-white", "11-white", "12-white", "13-white", "14-white", "15-white", "16-white"];
+		indexy[10] = ["0-green", "1-white", "2-green", "3-white", "4-green", "5-white", "6-green", "7-green", "8-green", "9-white", "10-green", "11-green", "12-green", "13-white", "14-green", "15-green", "16-green"];
+		indexy[11] = ["0-green", "1-white", "2-green", "3-white", "4-green", "5-white", "6-green", "7-white", "8-green", "9-white", "10-green", "11-white", "12-green", "13-white", "14-white", "15-green", "16-white"];
+		indexy[12] = ["0-green", "1-green", "2-green", "3-green", "4-green", "5-white", "6-green", "7-green","8-green", "9-white", "10-green", "11-green", "12-green", "13-white", "14-white", "15-green", "16-white"];
+		indexy[13] = ["0-white", "1-white", "2-white", "3-white", "4-white", "5-white", "6-white", "7-white", "8-white", "9-white", "10-white", "11-white", "12-white", "13-white", "14-white", "15-white", "16-white"];
+
+	}
 
 
 	window.temp_spravy = [];
@@ -716,7 +735,11 @@ if(pismeno == "CZECH"){
 				var bezPomlcky = indexy[i][ii].replace("-yellow", "");
 				     pozadie[bezPomlcky] = ":full_moon:";
                            
-				
+			} else if(indexy[i][ii].toString().indexOf("-green") > -1){
+
+				var bezPomlcky = indexy[i][ii].replace("-green", "");
+				     pozadie[bezPomlcky] = ":green_heart:";	
+		
 			} else {
 				pozadie[indexy[i][ii]] = ":blue_heart:";
 			}
