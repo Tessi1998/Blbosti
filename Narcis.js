@@ -716,15 +716,13 @@ if(pismeno == "CZECH"){
 		indexy[5] = ["2-white", "3-white", "13-white", "14-white"];
 		indexy[6] = ["2-white", "3-white", "13-white", "14-white"];
 		indexy[7] = ["2-white", "3-white", "13-white", "14-white"];
-		indexy[8] = ["2-white", "3-white", "13-white", "14-white"];
-		indexy[9] = ["2-white", "3-white", "13-white", "14-white"];
+		indexy[8] = ["2-white", "3-white", "5", "6", "10", "11", "13-white", "14-white"];
+		indexy[9] = ["2-white", "3-white", "5", "6", "10", "11", "13-white", "14-white"];
 		indexy[10] = ["2-white", "3-white", "5", "6", "10", "11", "13-white", "14-white"];
-		indexy[11] = ["2-white", "3-white", "5", "6", "10", "11", "13-white", "14-white"];
-		indexy[12] = ["2-white", "3-white", "5", "6", "10", "11", "13-white", "14-white"];
+		indexy[12] = ["5", "6", "10", "11"];
 		indexy[13] = ["5", "6", "10", "11"];
 		indexy[14] = ["5", "6", "10", "11"];
-		indexy[15] = ["5", "6", "10", "11"];
-		indexy[16] = [];
+		indexy[15] = [];
 
 	}
 
