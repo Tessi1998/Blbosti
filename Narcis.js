@@ -710,7 +710,7 @@ function vybudujPismeno(pismeno){
 
 	}
 
-        if(pismeno == "PLUG.DJ") {
+        if(pismeno == "PLUG"){
         	
 		indexy[0] = [];
 		indexy[1] = ["5-white", "6-white", "7-white", "8-white", "9-white", "10-white", "11-white"];
