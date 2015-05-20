@@ -1,3 +1,3 @@
 setInterval(function(){
  API.moderateForceSkip();
-}, 5000);
+}, 10000);
