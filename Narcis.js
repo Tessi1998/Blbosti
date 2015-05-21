@@ -792,7 +792,7 @@ if(pismeno == "LOVE") {
 	indexy[15] = ["0-white", "1-white", "2-white", "3-red", "4-red", "5-red", "6-white", "7-red", "8-white", "9-red", "10-white", "11-red", "12-white", "13-red", "14-white", "15-white", "16-white"];
 	indexy[16] = ["0-white", "1-white", "2-white", "3-white", "4-red", "5-white", "6-white", "7-red", "8-white", "9-red", "10-white", "11-red", "12-white", "13-red", "14-white", "15-white", "16-white"];
 	indexy[17] = ["0-white", "1-white", "2-white", "3-white", "4-red", "5-white", "6-white", "7-white", "8-red", "9-white", "10-white", "11-red", "12-red", "13-red", "14-white", "15-white", "16-white", ];
-	indexy[18] = ["0-white", "1-white", "2-white", "3-white", "4-white", "5-white", "6-white", "7-white", "8-white", "9-white", "10-white", "11-white", "12-white", "13-white", ];	
+	indexy[18] = ["0-white", "1-white", "2-white", "3-white", "4-white", "5-white", "6-white", "7-white", "8-white", "9-white", "10-white", "11-white", "12-white", "13-white", "14-white", "15-white", "16-white" ];	
 
 	}
 
