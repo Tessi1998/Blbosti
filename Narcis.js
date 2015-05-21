@@ -774,25 +774,25 @@ if(pismeno == "MEH") {
 
 if(pismeno == "LOVE") {
 		
-	indexy[0] = [];
-        indexy[1] = ["7-red", "8-red", "9-red"];
-        indexy[2] = ["8-red"];
-        indexy[3] = ["8-red"];
-        indexy[4] = ["8-red"];
-        indexy[5] = ["7-red", "8-red", "9-red"];
-        indexy[6] = [];
-        indexy[7] = ["1-red", "6-red", "9-red", "11-red", "13-red", "14-red", "15-red"];
-        indexy[8] = ["1-red", "5-red", "7-red", "9-red", "11-red", "13-red"];
-        indexy[9] = ["1-red", "5-red", "7-red", "9-red", "11-red", "13-red", "14-red"];
-        indexy[10] = ["1-red", "5-red", "7-red", "9-red", "11-red", "13-red"];
-        indexy[11] = ["1-red", "2-red", "3-red", "6-red", "10-red", "13-red", "14-red", "15-red"];
-        indexy[12] = [];
-        indexy[13] = ["3-red", "5-red", "8-red", "11-red", "13-red"];
-        indexy[14] = ["3-red", "5-red", "7-red", "9-red", "11-red", "13-red"];
-        indexy[15] = ["4-red", "7-red", "9-red", "11-red", "13-red"];
-        indexy[16] = ["4-red", "7-red", "9-red", "11-red", "13-red"];
-        indexy[17] = ["4-red", "8-red", "11-red", "12-red", "13-red", ];
-        indexy[18] = [];	
+	indexy[0] = ["0-white", "1-white", "2-white", "3-white", "4-white", "5-white", "6-white", "7-white", "8-white", "9-white", "10-white", "11-white", "12-white", "13-white", "14-white", "15-white", "16-white"];
+	indexy[1] = ["0-white", "1-white", "2-white", "3-white", "4-white", "5-white", "6-white", "7-red", "8-red", "9-red", "10-white", "11-white", "12-white", "13-white", "14-white", "15-white", "16-white"];
+	indexy[2] = ["0-white", "1-white", "2-white", "3-white", "4-white", "5-white", "6-white", "7-white", "8-red", "9-white", "10-white", "11-white", "12-white", "13-white", "14-white", "15-white", "16-white"];
+	indexy[3] = ["0-white", "1-white", "2-white", "3-white", "4-white", "5-white", "6-white", "7-white", "8-red", "9-white", "10-white", "11-white", "12-white", "13-white", "14-white", "15-white", "16-white"];
+	indexy[4] = ["0-white", "1-white", "2-white", "3-white", "4-white", "5-white", "6-white", "7-white", "8-red", "9-white", "10-white", "11-white", "12-white", "13-white", "14-white", "15-white", "16-white"];
+	indexy[5] = ["0-white", "1-white", "2-white", "3-white", "4-white", "5-white", "6-white", "7-red", "8-red", "9-red", "10-white", "11-white", "12-white", "13-white", "14-white", "15-white", "16-white"];
+	indexy[6] = ["0-white", "1-white", "2-white", "3-white", "4-white", "5-white", "6-white", "7-white", "8-white", "9-white", "10-white", "11-white", "12-white", "13-white", "14-white", "15-white", "16-white"];
+	indexy[7] = ["0-white", "1-red", "2-white", "3-white", "4-white", "5-white", "6-red", "7-white", "8-white", "9-red", "10-white", "11-red", "12-white", "13-red", "14-red", "15-red", "16-white"];
+	indexy[8] = ["0-white", "1-red", "2-white", "3-white", "4-white", "5-red", "6-white", "7-red", "8-white", "9-red", "10-white", "11-red", "12-white", "13-red", "14-white", "15-white", "16-white"];
+	indexy[9] = ["0-white", "1-red", "2-white", "3-white", "4-white", "5-red", "6-white", "7-red", "8-white", "9-red", "10-white", "11-red", "12-white", "13-red", "14-red", "15-white", "16-white"];
+	indexy[10] = ["0-white", "1-red", "2-white", "3-white", "4-white", "5-red", "6-white", "7-red", "8-white", "9-red", "10-white", "11-red", "12-white", "13-red", "14-white", "15-white", "16-white"];
+	indexy[11] = ["0-white", "1-red", "2-red", "3-red", "4-white", "5-white", "6-red", "7-white", "8-white", "9-white", "10-red", "11-white", "12-white", "13-red", "14-red", "15-red", "16-white"];
+	indexy[12] = ["0-white", "1-white", "2-white", "3-white", "4-white", "5-white", "6-white", "7-white", "8-white", "9-white", "10-white", "11-white", "12-white", "13-white", "14-white", "15-white", "16-white"];
+	indexy[13] = ["0-white", "1-white", "2-white", "3-red", "4-white", "5-red", "6-white", "7-white", "8-red", "9-white", "10-white", "11-red", "12-white", "13-red", "14-white", "15-white", "16-white"];
+	indexy[14] = ["0-white", "1-white", "2-white", "3-red", "4-white", "5-red", "6-white", "7-red", "8-white", "9-red", "10-white", "11-red", "12-white", "13-red", "14-white", "15-white", "16-white"];
+	indexy[15] = ["0-white", "1-white", "2-white", "3-red", "4-red", "5-red", "6-white", "7-red", "8-white", "9-red", "10-white", "11-red", "12-white", "13-red", "14-white", "15-white", "16-white"];
+	indexy[16] = ["0-white", "1-white", "2-white", "3-white", "4-red", "5-white", "6-white", "7-red", "8-white", "9-red", "10-white", "11-red", "12-white", "13-red", "14-white", "15-white", "16-white"];
+	indexy[17] = ["0-white", "1-white", "2-white", "3-white", "4-red", "5-white", "6-white", "7-white", "8-red", "9-white", "10-white", "11-red", "12-red", "13-red", "14-white", "15-white", "16-white", ];
+	indexy[18] = ["0-white", "1-white", "2-white", "3-white", "4-white", "5-white", "6-white", "7-white", "8-white", "9-white", "10-white", "11-white", "12-white", "13-white", ];	
 
 	}
 
