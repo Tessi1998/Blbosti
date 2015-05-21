@@ -772,6 +772,30 @@ if(pismeno == "MEH") {
 
 	}
 
+if(pismeno == "LOVE") {
+		
+	indexy[0] = [];
+        indexy[1] = ["7-red", "8-red", "9-red"];
+        indexy[2] = ["8-red"];
+        indexy[3] = ["8-red"];
+        indexy[4] = ["8-red"];
+        indexy[5] = ["7-red", "8-red", "9-red"];
+        indexy[6] = [];
+        indexy[7] = ["1-red", "6-red", "9-red", "11-red", "13-red", "14-red", "15-red"];
+        indexy[8] = ["1-red", "5-red", "7-red", "9-red", "11-red", "13-red"];
+        indexy[9] = ["1-red", "5-red", "7-red", "9-red", "11-red", "13-red", "14-red"];
+        indexy[10] = ["1-red", "5-red", "7-red", "9-red", "11-red", "13-red"];
+        indexy[11] = ["1-red", "2-red", "3-red", "6-red", "10-red", "13-red", "14-red", "15-red"];
+        indexy[12] = [];
+        indexy[13] = ["3-red", "5-red", "8-red", "11-red", "13-red"];
+        indexy[14] = ["3-red", "5-red", "7-red", "9-red", "11-red", "13-red"];
+        indexy[15] = ["4-red", "7-red", "9-red", "11-red", "13-red"];
+        indexy[16] = ["4-red", "7-red", "9-red", "11-red", "13-red"];
+        indexy[17] = ["4-red", "8-red", "11-red", "12-red", "13-red", ];
+        indexy[18] = [];	
+
+	}
+
 
 	window.temp_spravy = [];
 
