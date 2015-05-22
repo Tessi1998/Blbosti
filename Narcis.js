@@ -729,7 +729,7 @@ function vybudujPismeno(pismeno){
 
 	}
 
-if(pismeno == "MEH") {
+        if(pismeno == "MEH") {
 		
 		indexy[0] = ["0-white", "1-white", "2-white", "3-white", "4-white", "5-white", "6-white", "7-white", "8-white", "9-white", "10-white", "11-white", "12-white", "13-white", "14-white", "15-white", "16-white"];
 		indexy[1] = ["0-white", "16-white"];
@@ -772,7 +772,7 @@ if(pismeno == "MEH") {
 
 	}
 
-if(pismeno == "LOVE") {
+   if(pismeno == "LOVE") {
 		
 	indexy[0] = ["0-white", "1-white", "2-white", "3-white", "4-white", "5-white", "6-white", "7-white", "8-white", "9-white", "10-white", "11-white", "12-white", "13-white", "14-white", "15-white", "16-white"];
 	indexy[1] = ["0-white", "1-white", "2-white", "3-white", "4-white", "5-white", "6-white", "7-red", "8-red", "9-red", "10-white", "11-white", "12-white", "13-white", "14-white", "15-white", "16-white"];
@@ -793,6 +793,18 @@ if(pismeno == "LOVE") {
 	indexy[16] = ["0-white", "1-white", "2-white", "3-white", "4-red", "5-white", "6-white", "7-red", "8-white", "9-red", "10-white", "11-red", "12-white", "13-red", "14-white", "15-white", "16-white"];
 	indexy[17] = ["0-white", "1-white", "2-white", "3-white", "4-red", "5-white", "6-white", "7-white", "8-red", "9-white", "10-white", "11-red", "12-red", "13-red", "14-white", "15-white", "16-white", ];
 	indexy[18] = ["0-white", "1-white", "2-white", "3-white", "4-white", "5-white", "6-white", "7-white", "8-white", "9-white", "10-white", "11-white", "12-white", "13-white", "14-white", "15-white", "16-white" ];	
+
+	}
+
+   if(pismeno == "LOL"){
+		
+	indexy[0] = [];
+	indexy[1] = ["2", "8", "12"];
+	indexy[2] = ["2", "7", "9", "12"];
+	indexy[3] = ["2", "7", "9", "12"];
+	indexy[4] = ["2", "7", "9", "12"];
+	indexy[5] = ["2", "3", "4", "8", "12", "13", "14"];
+	indexy[6] = [];
 
 	}
 
