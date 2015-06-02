@@ -832,6 +832,27 @@ function vybudujPismeno(pismeno){
 
 	}
 	
+    if(pismeno == "LADYBIRD"){
+		
+	indexy[0] = ["0-green", "1-green", "2-green", "3-green", "4-green", "5-green", "6-green", "7-green", "8-green", "9-green", "10-green", "11-green", "12-green", "13-green", "14-green", "15-green", "16-green"];
+        indexy[1] = ["0-green", "1-green", "2-green", "3-green", "4-green", "5-green", "7-green", "8-green", "9-green", "11-green", "12-green", "13-green", "14-green", "15-green", "16-green"];
+        indexy[2] = ["0-green", "1-green", "2-green", "3-green", "4-green", "6-green", "8-green", "10-green", "12-green", "13-green", "14-green", "15-green", "16-green"];
+        indexy[3] = ["0-green", "1-green", "2-green", "3-green", "4-green", "5-green", "6-green", "7-green", "9-green", "10-green", "11-green", "12-green", "13-green", "14-green", "15-green", "16-green"];
+        indexy[4] = ["0-green", "1-green", "2-green", "3-green", "4-green", "5-green", "6-green", "10-green", "11-green", "12-green", "13-green", "14-green", "15-green", "16-green"];
+        indexy[5] = ["0-green", "1-green", "2-green", "3-green", "4-green", "5-green", "6-green", "10-green", "11-green", "12-green", "13-green", "14-green", "15-green", "16-green"];
+        indexy[6] = ["0-green", "1-green", "2-green", "3-green", "4-green", "5-green", "6-red", "7-red", "9-red", "10-red", "11-green", "12-green", "13-green", "14-green", "15-green", "16-green"];
+        indexy[7] = ["0-green", "1-green", "2-green", "3-green", "4-green", "5-red", "7-red", "9-red", "10-red", "11-red", "12-green", "13-green", "14-green", "15-green", "16-green"];
+        indexy[8] = ["0-green", "1-green", "2-green", "3-green", "4-red", "5-red", "6-red", "7-red", "9-red", "11-red", "12-red", "13-green", "14-green", "15-green", "16-green"];
+        indexy[9] = ["0-green", "1-green", "2-green", "3-green", "4-red", "5-red", "7-red", "9-red", "10-red", "11-red", "12-red", "13-green", "14-green", "15-green", "16-green"];
+        indexy[10] = ["0-green", "1-green", "2-green", "3-green", "4-red", "5-red", "6-red", "7-red", "9-red", "10-red", "12-red", "13-green", "14-green", "15-green", "16-green"];
+        indexy[11] = ["0-green", "1-green", "2-green", "3-green", "4-red", "6-red", "7-red", "9-red", "10-red", "11-red", "12-red", "13-green", "14-green", "15-green", "16-green"];
+        indexy[12] = ["0-green", "1-green", "2-green", "3-green", "4-red", "5-red", "6-red", "7-red", "9-red", "11-red", "12-red", "13-green", "14-green", "15-green", "16-green"];
+        indexy[13] = ["0-green", "1-green", "2-green", "3-green", "4-green", "5-red", "7-red", "9-red", "10-red", "11-red", "12-green", "13-green", "14-green", "15-green", "16-green"];
+        indexy[14] = ["0-green", "1-green", "2-green", "3-green", "4-green", "5-green", "6-red", "7-red", "9-red", "10-red", "11-green", "12-green", "13-green", "14-green", "15-green", "16-green"];
+        indexy[15] = ["0-green", "1-green", "2-green", "3-green", "4-green", "5-green", "6-green", "7-green", "8-green", "9-green", "10-green", "11-green", "12-green", "13-green", "14-green", "15-green", "16-green"];
+
+	}
+
 
 	window.temp_spravy = [];
 
