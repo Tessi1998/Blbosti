@@ -808,6 +808,30 @@ function vybudujPismeno(pismeno){
 
 	}
 
+    if(pismeno == "MOON"){
+		
+	indexy[0] = [];
+        indexy[1] = [];
+        indexy[2] = ["6-yellow", "7-yellow", "8-yellow", "9-yellow", "10-yellow", "11-yellow"];
+        indexy[3] = ["5-yellow", "6-yellow", "7-yellow", "8-yellow", "9-yellow", "10-yellow", "11-yellow", "12-yellow"];
+        indexy[4] = ["4-yellow", "5-yellow", "6-yellow", "7-yellow", "8-yellow", "9-yellow", "10-yellow", "11-yellow", "12-yellow", "13-yellow"];
+        indexy[5] = ["3-yellow", "4-yellow", "5-yellow", "6-yellow", "7-yellow", "8-yellow", "9-yellow", "10-yellow", "14-yellow"];
+        indexy[6] = ["2-yellow", "3-yellow", "4-yellow", "5-yellow", "6-yellow", "7-yellow", "8-yellow", "9-yellow"];
+        indexy[7] = ["2-yellow", "3-yellow", "4-yellow", "5-yellow", "6-yellow", "7-yellow", "8-yellow"];
+        indexy[8] = ["2-yellow", "3-yellow", "4-yellow", "5-yellow", "6-yellow", "7-yellow", "8-yellow"];
+        indexy[9] = ["2-yellow", "3-yellow", "4-yellow", "5-yellow", "6-yellow", "7-yellow", "8-yellow"];
+        indexy[10] = ["2-yellow", "3-yellow", "4-yellow", "5-yellow", "6-yellow", "7-yellow", "8-yellow"];
+        indexy[11] = ["2-yellow", "3-yellow", "4-yellow", "5-yellow", "6-yellow", "7-yellow", "8-yellow"];
+        indexy[12] = ["2-yellow", "3-yellow", "4-yellow", "5-yellow", "6-yellow", "7-yellow", "8-yellow", "9-yellow"];
+        indexy[13] = ["3-yellow", "4-yellow", "5-yellow", "6-yellow", "7-yellow", "8-yellow", "9-yellow", "10-yellow", "14-yellow"];
+        indexy[14] = ["4-yellow", "5-yellow", "6-yellow", "7-yellow", "8-yellow", "9-yellow", "10-yellow", "11-yellow", "12-yellow", "13-yellow"];
+        indexy[15] = ["5-yellow", "6-yellow", "7-yellow", "8-yellow", "9-yellow", "10-yellow", "11-yellow", "12-yellow"];
+        indexy[16] = ["6-yellow", "7-yellow", "8-yellow", "9-yellow", "10-yellow", "11-yellow"];
+        indexy[17] = [];
+        indexy[18] = [];
+
+	}
+	
 
 	window.temp_spravy = [];
 
