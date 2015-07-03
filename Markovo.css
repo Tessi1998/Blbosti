@@ -12,27 +12,27 @@
 "forceSmartVote": false
 },
 "ccc":{ 
-"admin": "#fa0d28",
-"ambassador": "#e003c6",
-"host": "#00ff3c",
-"cohost": "#00fcc1",
-"manager": "#ff0000",
-"bouncer": "#fcfc00",
+"admin": "#42a5dc",
+"ambassador": "#aaff00",
+"host": "#42a5dc",
+"cohost": "#aaff00",
+"manager": "#ff2626",
+"bouncer": "#5063f3",
 "rdj": "#ffb700",
 "subscriber": "#00aeff",
-"friend": "#00ffae",
-"user": "#ffe100"
+"friend": "#f5d908",
+"user": "#ff8400"
 },
 "images": { 
 "background": "https://cdn.radiant.dj/rcs/bg/2k14tc.jpg",
 "playback": "https://dazzuh.ovh/plug/nb3DJvideo.png",
 "admin": "https://cdn.radiant.dj/rcs/icons/radiant/admin.png",
 "ambassador": "https://cdn.radiant.dj/rcs/icons/radiant/ambassador.png",
-"host": "https://cdn.radiant.dj/rcs/icons/radiant/admin.png",
+"host": "https://cdn.radiant.dj/rcs/icons/radiant/subscriber.png",
 "cohost": "https://cdn.radiant.dj/rcs/icons/radiant/ambassador.png",
 "manager": "https://cdn.radiant.dj/rcs/icons/radiant/manager.png",
 "bouncer": "https://cdn.radiant.dj/rcs/icons/radiant/bouncer.png",
-"rdj": "null",
+"rdj": "https://cdn.radiant.dj/rcs/icons/radiant/residentdj.png",
 "subscriber" :"https://cdn.radiant.dj/rcs/icons/radiant/subscriber.png"
 }
 }
