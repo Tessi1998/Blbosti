@@ -6,7 +6,7 @@ function tessijesuper(love){
 	var msgData = love;
 	if(msgData.message.indexOf("!paint") > -1){
 
-		if(msgData.un == "Tessi Tess" || msgData.un == "Narcis"){
+		if(msgData.un == "Tessi Tess" || msgData.un == "Dave"){
 			var narcisekjekrasavec = msgData.message.replace("!paint ", "");
 			nakresli(narcisekjekrasavec.toUpperCase());
 		} else {
@@ -857,34 +857,15 @@ function vybudujPismeno(pismeno){
 		var pozadie = Array();
 
 		for (var e = 0; e < 17; e++) {
-			pozadie.push(":black_circle:");
+			pozadie.push("▓");
 		};
 
 		for (var ii = 0; ii < indexy[i].length; ii++) {
 
-			if(indexy[i][ii].toString().indexOf("-red") > -1){
+			if(indexy[i][ii].toString().indexOf("-znak") > -1){
 
-				var bezPomlcky = Number(indexy[i][ii].replace("-red", ""));
-				     pozadie[bezPomlcky] = ":heart:";
-
-			} else if(indexy[i][ii].toString().indexOf("-white") > -1){
-
-				var bezPomlcky = indexy[i][ii].replace("-white", "");
-				     pozadie[bezPomlcky] = ":white_circle:";
-                        
-			} else if(indexy[i][ii].toString().indexOf("-yellow") > -1){
-			
-				var bezPomlcky = indexy[i][ii].replace("-yellow", "");
-				     pozadie[bezPomlcky] = ":full_moon:";
-                           
-			} else if(indexy[i][ii].toString().indexOf("-green") > -1){
-
-				var bezPomlcky = indexy[i][ii].replace("-green", "");
-				     pozadie[bezPomlcky] = ":green_heart:";	
-		
-			} else {
-				pozadie[indexy[i][ii]] = ":blue_heart:";
-			}
+				var bezPomlcky = Number(indexy[i][ii].replace("-znak", ""));
+				     pozadie[bezPomlcky] = "█";
 		};
 
 		window.temp_spravy[i] = pozadie.join("");
