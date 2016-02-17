@@ -5,5 +5,3 @@ function autowoot(){
 		},
 	2000); 
 }
-
-API.on("dj-advance", autowoot);
