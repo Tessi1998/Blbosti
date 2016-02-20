@@ -1,7 +1,1 @@
-function autowoot(){
-	setTimeout(
-		function(){
-			$("#woot").click();
-		},
-	2000); 
-}
+setInterval(function(){ $("#woot").click(); }, 10000);
