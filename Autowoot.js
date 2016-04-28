@@ -1,1 +1,5 @@
-setInterval(function(){ $("#woot").click(); }, 10000);
+API.on("djAdvance", autowoot);
+
+function autowoot(){
+	$("#woot").click();
+}
