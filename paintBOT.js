@@ -6,9 +6,9 @@ function tessijesuper(love){
 	var msgData = love;
 	if(msgData.message.indexOf("!paint") > -1){
 
-		if(msgData.un == "Tessi Tess" || msgData.un == "Narcis"){
-			var narcisekjekrasavec = msgData.message.replace("!paint ", "");
-			nakresli(narcisekjekrasavec.toUpperCase());
+		if(msgData.un == "Tessi Tess" || msgData.un == "Dave"){
+			var davidkojesuper = msgData.message.replace("!paint");
+			nakresli(davidkojesuper.toUpperCase());
 		} else {
 			API.sendChat("@"+msgData.un+" Toto je soukromé. Ty malovat nemůžeš. :P ");
 		}
