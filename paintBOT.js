@@ -1,17 +1,22 @@
 API.off(API.CHAT, tessijesuper);
-
 API.on(API.CHAT, tessijesuper);
+window.paintTimer = [];
 
 function tessijesuper(love){
 	var msgData = love;
 	if(msgData.message.indexOf("!paint") > -1){
 
 		if(msgData.un == "Tessi Tess" || msgData.un == "D­a­v­e"){
-			var davidkojesuper = msgData.message.replace("!paint");
+			var davidkojesuper = msgData.message.replace("!paint ", "");
+			console.log(davidkojesuper);
 			nakresli(davidkojesuper.toUpperCase());
 		} else {
 			API.sendChat("@"+msgData.un+" Toto je soukromé. Ty malovat nemůžeš. :P ");
 		}
+	}
+
+	if(msgData.message.indexOf("!cancel") > -1){
+		cancel();
 	}
 
 }
@@ -25,9 +30,10 @@ function posliSpravu(index, timeout){
 function nakresli(text){
 	vybudujPismeno(text[0]);
 	window.temp_letter = [];
-
+	console.log(text);
 	if(text.indexOf("--") > -1){
 		vybudujPismeno(text.replace("--", ""));
+		console.log(text.replace("--", ""));
 	} else {
 
 		for (var h = 1; h < text.length; h++) {
@@ -38,11 +44,17 @@ function nakresli(text){
 	}
 
 }
+function cancel(){
+	for (var i = window.paintTimer.length - 1; i >= 0; i--) {
+		clearTimeout(window.paintTimer[i]);
+	}
+	API.sendChat(":warning: APOKALYPSA ZASTAVENA!");
+}
 function posliPrikazNaKreslenie(index, timeout){
 
-	setTimeout(function(){
+	window.paintTimer.push(setTimeout(function(){
 		vybudujPismeno(window.temp_letter[index-1]);
-	}, timeout);
+	}, timeout));
 }
 function vybudujPismeno(pismeno){
 	
